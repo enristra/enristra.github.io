@@ -88,15 +88,35 @@ header {
 
 nav {
     display: flex;
+    align-items: center;
     gap: 1rem;
+}
+
+.nav-links{
+    display: none;
 
 }
 
+.nav-links li{
+    display: inline-block;
+    
+}
 
-
+.menu-icon{
+    width: 24px;
+    height: 24px;
+}
 
 @media (min-width:768px) {
     header {
         padding-top: 4rem;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .nav-links{
+        display: flex;
+        gap: 1rem;
+        list-style: none;
     }
 }
