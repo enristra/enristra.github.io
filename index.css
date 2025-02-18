@@ -30,11 +30,12 @@ section {
 /*###############----------------TYPOGRAPHY--------------#####################*/
 
 
-h2{
+h2 {
     font-weight: 600;
     color: grey;
     margin-bottom: 0.75rem;
 }
+
 .logo {
     font-size: 1rem;
 }
@@ -170,4 +171,15 @@ nav {
     .nav-menu {
         display: flex;
     }
+}
+
+.text-field {
+    width: 100%;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+
 }
