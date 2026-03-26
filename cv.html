@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Enrico Strangio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- nav injected by index.js -->
+        <main>
+
+            <!-- HEADER -->
+            <section style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 1rem;">
+                <div>
+                    <h1 class="title" style="margin-bottom: 0.25rem;">Enrico Strangio</h1>
+                    <p style="color: var(--fg-muted); font-size: 0.9rem;">
+                        Bologna, Italy &nbsp;&middot;&nbsp;
+                        <a href="tel:+393453724644">+39 345 372 4644</a> &nbsp;&middot;&nbsp;
+                        <a href="mailto:strangioenrico@gmail.com">strangioenrico@gmail.com</a> &nbsp;&middot;&nbsp;
+                        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> &nbsp;&middot;&nbsp;
+                        <a href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+                    </p>
+                </div>
+                <a href="CV_Enrico_Strangio.pdf" download class="button button--outline" style="margin-top: 0;">Download PDF</a>
+            </section>
+
+            <!-- SUMMARY -->
+            <section>
+                <h2>Summary</h2>
+                <p>
+                    Computer Engineering student at the University of Bologna, expected to graduate in March 2027.
+                    Experience in front-end development, parallel programming (CUDA), and mobile applications.
+                    Looking for opportunities where I can apply my engineering background to real-world software problems.
+                </p>
+            </section>
+
+            <!-- PROJECTS — placed before experience: stronger material -->
+            <section>
+                <h2>Projects</h2>
+                <div class="cv-section">
+
+                    <div class="cv-entry">
+                        <div>
+                            <p class="cv-entry-title">Cardiomegaly Classifier</p>
+                            <p class="cv-entry-subtitle">University &nbsp;&middot;&nbsp; <a href="#" target="_blank" rel="noopener">GitHub</a></p>
+                        </div>
+                        <p class="cv-entry-date">2024</p>
+                        <p class="cv-entry-desc">
+                            Built a pixel-weight classifier for chest X-rays (CHESTMNIST dataset), implementing
+                            weighted sums and thresholding for the inference phase. Ported sequential C++ code to
+                            CUDA, exploring shared memory, grid/block configurations, and parallel reduction.
+                            Profiled kernels with Nsight Compute to identify memory access and occupancy bottlenecks.
+                        </p>
+                        <div style="margin-top: 0.6rem; grid-column: 1 / -1;">
+                            <span class="skill-chip">C++</span>
+                            <span class="skill-chip">CUDA</span>
+                            <span class="skill-chip">Parallel Programming</span>
+                            <span class="skill-chip">Nsight Compute</span>
+                        </div>
+                    </div>
+
+                    <div class="cv-entry">
+                        <div>
+                            <p class="cv-entry-title">PokeTrade</p>
+                            <p class="cv-entry-subtitle">University &nbsp;&middot;&nbsp; <a href="#" target="_blank" rel="noopener">GitHub</a></p>
+                        </div>
+                        <p class="cv-entry-date">2023</p>
+                        <p class="cv-entry-desc">
+                            Mobile app in Dart/Flutter for managing Pokemon card exchanges. Implemented user
+                            accounts, card listings, and drop-point management. Worked in a team using Git for
+                            version control and Agile task division.
+                        </p>
+                        <div style="margin-top: 0.6rem; grid-column: 1 / -1;">
+                            <span class="skill-chip">Dart</span>
+                            <span class="skill-chip">Flutter</span>
+                            <span class="skill-chip">Git</span>
+                            <span class="skill-chip">Agile</span>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </section>
+
+            <!-- EXPERIENCE -->
+            <section>
+                <h2>Experience</h2>
+                <div class="cv-section">
+
+                    <div class="cv-entry">
+                        <div>
+                            <p class="cv-entry-title">Front-End Developer Intern</p>
+                            <p class="cv-entry-subtitle">Mexage S.r.l &nbsp;&middot;&nbsp; Bologna, Italy</p>
+                        </div>
+                        <p class="cv-entry-date">Jul 2021 &mdash; Sep 2021</p>
+                        <p class="cv-entry-desc">
+                            Built the UI of a smart intercom application in ReactJS, integrating REST APIs.
+                            Worked within a small dev team following Agile practices.
+                        </p>
+                        <div style="margin-top: 0.6rem; grid-column: 1 / -1;">
+                            <span class="skill-chip">React</span>
+                            <span class="skill-chip">REST APIs</span>
+                            <span class="skill-chip">Agile</span>
+                        </div>
+                    </div>
+
+                    <div class="cv-entry">
+                        <div>
+                            <p class="cv-entry-title">IS Developer</p>
+                            <p class="cv-entry-subtitle">Toyota Material Handling Manufacturing Italy &nbsp;&middot;&nbsp; Bologna, Italy</p>
+                        </div>
+                        <p class="cv-entry-date">Mar 2022 &mdash; May 2022</p>
+                        <p class="cv-entry-desc">
+                            Worked with Oracle JD Edwards for business intelligence reporting. Wrote and optimised
+                            SQL queries to support internal reporting activities.
+                        </p>
+                        <div style="margin-top: 0.6rem; grid-column: 1 / -1;">
+                            <span class="skill-chip">SQL</span>
+                            <span class="skill-chip">Oracle JD Edwards</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- EDUCATION -->
+            <section>
+                <h2>Education</h2>
+                <div class="cv-section">
+
+                    <div class="cv-entry">
+                        <div>
+                            <p class="cv-entry-title">MSc Computer Engineering</p>
+                            <p class="cv-entry-subtitle">Alma Mater Studiorum &mdash; University of Bologna</p>
+                        </div>
+                        <p class="cv-entry-date">Expected Mar 2027</p>
+                    </div>
+
+                    <div class="cv-entry">
+                        <div>
+                            <p class="cv-entry-title">BSc Computer Engineering</p>
+                            <p class="cv-entry-subtitle">Alma Mater Studiorum &mdash; University of Bologna</p>
+                        </div>
+                        <p class="cv-entry-date">2024</p>
+                        <!--
+                            Add your grade if you want, e.g.:
+                            <p class="cv-entry-desc" style="grid-column: 1 / -1;">Final grade: XX/110</p>
+                        -->
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- SKILLS -->
+            <section>
+                <h2>Skills</h2>
+                <div class="cv-section">
+
+                    <p style="font-size: 0.8rem; color: var(--fg-muted); margin-bottom: 0.75rem;">Programming</p>
+                    <div class="skill-grid" style="margin-bottom: 1.5rem;">
+                        <span class="skill-chip">Python</span>
+                        <span class="skill-chip">C++</span>
+                        <span class="skill-chip">CUDA</span>
+                        <span class="skill-chip">JavaScript</span>
+                        <span class="skill-chip">React</span>
+                        <span class="skill-chip">Dart / Flutter</span>
+                        <span class="skill-chip">SQL</span>
+                        <span class="skill-chip">HTML / CSS</span>
+                    </div>
+
+                    <p style="font-size: 0.8rem; color: var(--fg-muted); margin-bottom: 0.75rem;">Tools &amp; Concepts</p>
+                    <div class="skill-grid" style="margin-bottom: 1.5rem;">
+                        <span class="skill-chip">Git</span>
+                        <span class="skill-chip">VSCode</span>
+                        <span class="skill-chip">Jupyter</span>
+                        <span class="skill-chip">NumPy</span>
+                        <span class="skill-chip">pandas</span>
+                        <span class="skill-chip">Nsight Compute</span>
+                        <span class="skill-chip">Agile / Scrum</span>
+                    </div>
+
+                    <p style="font-size: 0.8rem; color: var(--fg-muted); margin-bottom: 0.75rem;">Languages</p>
+                    <div class="skill-grid">
+                        <span class="skill-chip">Italian &mdash; native</span>
+                        <span class="skill-chip">English &mdash; advanced</span>
+                        <span class="skill-chip">French &mdash; basic</span>
+                        <span class="skill-chip">Spanish &mdash; basic</span>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
